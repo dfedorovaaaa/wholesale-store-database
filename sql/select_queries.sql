@@ -49,7 +49,7 @@ SELECT name, price, stock_quantity, hall_quantity
 FROM Products
 WHERE name = "Динозавр Рекс";
 
--- Товары и цены поставщи
+-- Товары и цены поставщика
 SELECT DISTINCT Products.name AS ProductName, Products.price AS ProductPrice
 FROM (Products INNER JOIN Supplies ON Products.id = Supplies.product_id) INNER JOIN Suppliers ON Supplies.supplier_id = Suppliers.id
 WHERE Suppliers.name =
