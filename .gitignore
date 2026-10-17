@@ -1,0 +1,10 @@
+# Microsoft Access lock files
+*.laccdb
+*.ldb
+# Windows
+Thumbs.db
+Desktop.ini
+# Editor / temp files
+*.tmp
+*.bak
+~$*
